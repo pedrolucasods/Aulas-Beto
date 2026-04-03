@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,11 +10,95 @@
     <form>
         <fieldset>
             <legend>Dados Pessoais</legend>
-            <label>Nome: </label><input>
-            <label>Sobrenome: </label><input>
-            <br><br>
-            <label>Nascimento: </label><input placeholder="dd"> <input>
+            <table>
+                <tr>
+                    <td><label>Nome: </label></td>
+                    <td><input></td>
+                    <td><label>Sobrenome: </label></td>
+                    <td><input></td>
+                </tr>
+                <tr>
+                    <td><label>Nascimento: </label></td>
+                    <td><input placeholder="dd"></td>
+                    <td><input placeholder="mm"></td>
+                    <td><input placeholder="yyyy"></td>
+                </tr>
+                <tr>
+                    <td><label>RG: </label></td>
+                    <td><input></td>
+                </tr>
+                <tr>
+                    <td><label>CPF: </label></td>
+                    <td><input></td>
+                </tr>
+            </table>
         </fieldset>
+        <br>
+        <fieldset>
+            <legend>Dados de Endereço</legend>
+            <table>
+                <tr>
+                    <td><label>Rua: </label></td>
+                    <td><input></td>
+                </tr>
+                <tr>
+                    <td><label>Numero: </label></td>
+                    <td><input></td>
+                </tr>
+                <tr>
+                    <td><label>Bairro: </label></td>
+                    <td><input></td>
+                </tr>
+                <tr>
+                    <td><label>Estado: </label></td>
+                    <td>
+                        <select>
+                            <option value="">Selecione um estado</option>
+                            <option value="acre">Acre</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Cidade: </label></td>
+                    <td><input></td>
+                </tr>
+                <tr>
+                    <td><label>CEP: </label></td>
+                    <td><input></td>
+                    <td>-</td>
+                    <td><input></td>
+                </tr>
+            </table>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Dados de login</legend>
+            <table>
+                <tr>
+                    <td><label>Email: </label></td>
+                    <td><input></td>
+                </tr>
+                <tr>
+                    <td><label>Imagem de perfil:</label></td>
+                    <td><input type="file"></td>
+                </tr>
+                <tr>
+                    <td><label>Login de usuário: </label></td>
+                    <td><input></td>
+                </tr>
+                <tr>
+                    <td><label>Senha: </label></td>
+                    <td><input type="password"></td>
+                </tr>
+                <tr>
+                    <td><label>Confirme a senha: </label></td>
+                    <td><input type="password"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <br><br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
     </form>
 </body>
 </html>

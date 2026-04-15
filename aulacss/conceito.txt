@@ -1,0 +1,52 @@
+css cascading Style Sheet
+
+
+css é responsável pela aparência visual das páginas web.
+A ordem importa, não pode estilizar se for fora da ordem. Por isso é cascading, cascata
+
+Coisas para entender:
+    A ordem importa
+    Não duplicar código (por isso existe funções)
+
+Existem três jeitos de usar css
+° Css Inline:
+    Quando utiliza o atributo style dentro de uma tag.
+    Cada propriedade dentro de chave e valor. No caso tipo de formatação e o valor dele.
+
+    Exemplo: <p style:"Color:red";> Paragrafo </p>"
+
+° Css Interno:
+    Css interno uma tag. 
+    Seletor, chave e valor
+    Exemplo:
+        <style>
+            p{
+                color:red;
+            }
+        </style>
+    
+
+° Css Externo
+    aula12.html
+    aula12.css
+
+
+##### CASCATA #####
+Elementos internos
+
+Classes
+
+Id
+
+inline style
+
+$ important nada vai ser sobrescrito
+
+### Seletores ###
+ºElemento:
+    Selecioa os <p>
+
+ºClasse (.):
+    Qualquer elemento com class="destaque"
+    Classes são reutilizaveis. É necessário utilizar classes para
+    estilos genéricos.

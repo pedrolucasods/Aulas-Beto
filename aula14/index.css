@@ -21,12 +21,12 @@ body{
     justify-content: space-evenly;
     /* flex-direction: row-reverse; */
     align-items: flex-start;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 .box{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border-radius: 5px;
     /* margin: 10px; */
     /* margin-left: 10px; */
@@ -35,6 +35,11 @@ body{
 
 .box1{
     background-color: blue;
+    /* flex-shrink: 2; */
+    /* flex-basis: 190px; */
+    /* order: 3;
+    align-self: self-end; */
+    /* flex:2 */
 }
 
 .box2{
@@ -42,4 +47,5 @@ body{
 }
 .box3{
     background-color: yellow;
+    justify-content:
 }

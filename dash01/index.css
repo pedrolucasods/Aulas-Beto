@@ -71,8 +71,45 @@ header {
 }
 
 .box1 {
+  display: flex;
+  border: 1px solid black;
   width: 280px;
   background-color: #438afc;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.fundo-perfil{
+  position: absolute;
+  z-index: 2;
+  height: 100%;
+}
+
+.info-perfil{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  z-index: 10;
+  text-align: center;
+  background: transparent;
+}
+
+.name-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  color: #f5f5f5;
+}
+
+.name-perfil{
+  font-weight: 60;
+}
+
+.perfil-img{
+  border-radius: 50%;
+
 }
 
 .box2 {

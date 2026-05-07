@@ -57,9 +57,62 @@ body {
 }
 
 header {
+  display: flex;
   height: 70px;
   background-color: var(--bg-header);
   width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.header-bloco1{
+  display: flex;
+  gap: 20px;
+  font-weight: 200;
+  align-items: center;
+}
+
+#icon-company{
+  font-size: 40px;
+}
+
+.nome-company{
+  font-weight: 100;
+}
+
+#icon-list{
+  padding-left: 30px;
+  cursor: pointer;
+}
+
+
+.header-bloco2{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.perfil-header{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+#icon-notification{
+  width: 24px;
+  height: 24px;
+  padding-right: 50px;
+}
+
+.nome-perfil-header{
+  font-weight: 200;
+}
+
+#icon-arrow{
+  font-weight: 100;
+  padding-right: 30px;
 }
 
 .sub-header {
@@ -143,15 +196,35 @@ header {
   align-items: center;
   padding: 40px;
   color: #ffffff;
+  font-size: 12px;
 }
 
 .bloco1{
   text-align: left;
 }
 
+
+.title-dash{
+  font-weight: 400;
+}
+
+.welcome-paragrafo{
+  font-weight: 200;
+}
+
 .bloco2{
   display: flex;
+  align-items: center;
 }
+
+.bloco2 span{
+  font-size: 15px;
+}
+
+.subtitle-dash{
+  font-weight: 200;
+}
+
 .sidebar {
   min-width: 280px;
   background-color: var(--bg-sidebar);

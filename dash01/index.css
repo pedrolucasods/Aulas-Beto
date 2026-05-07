@@ -123,7 +123,7 @@ header {
   width: 100%;
 }
 
-.box1 {
+.sub-header .box1 {
   display: flex;
   min-width: 280px;
   background-color: #438afc;
@@ -168,7 +168,7 @@ header {
   border-radius: 50%;
 }
 
-.box2 {
+.sub-header .box2 {
   display: flex;
   width: 100%;
   background-color: var(--bg-header);
@@ -285,7 +285,12 @@ main {
 
 .content {
   width: 100%;
-  background-color: var(--bg-content);
+  
   padding: 30px;
   min-height: 100%;
+}
+
+.content .card1{
+  border: 1px solid black;
+  
 }

@@ -73,6 +73,15 @@ h5{
   color: var(--icon-color-blue);
 }
 
+.border-bottom{
+  border-bottom: 2px solid var(--bg-content);
+}
+
+.border-left{
+  border-left: 2px solid var(--bg-content);
+}
+
+
 body {
   background-color: var(--bg-page);
   display: flex;
@@ -144,12 +153,13 @@ header {
   padding-right: 30px;
 }
 
-.sub-header {
+.sub-header{
   display: flex;
   justify-content: space-between;
   background-color: var(--bg-header);
   height: 150px;
   width: 100%;
+  
 }
 
 .sub-header .box1 {
@@ -238,7 +248,8 @@ header {
 }
 
 .welcome-paragrafo{
-  font-weight: 200;
+  font-size: 14px;
+  font-weight: 100;
 }
 
 .bloco2{
@@ -251,6 +262,7 @@ header {
 }
 
 .subtitle-dash{
+  font-size: 14px;
   font-weight: 200;
 }
 
@@ -314,18 +326,20 @@ main {
 
 .content {
   width: 100%;
-
+  background-color: var(--bg-content);
   padding: 30px;
   min-height: 100%;
 }
 
 .content .card1{
-  border: 1px solid black;
+  display: flex;
+  
   width: 100%;
+  gap: 30px;
 }
 
 .content .card1 .statistics{
-  background-color: var(--bg-sidebar);
+  background-color: transparent;
   width: 400px;
   display: flex;
   flex-wrap: wrap;
@@ -333,15 +347,16 @@ main {
 
 .content .card1 .info{
   display: flex;
+  background-color: var(--bg-sidebar);
   justify-content: space-around;
   align-items: center;
   width: 200px;
   height: 100px;
-  
+  border-radius: 5px;
 }
 
 .content .card1 .info .icon{
-  font-size: 32px;
+  font-size: 38px;
 }
 
 .content .card1 .info .box1 

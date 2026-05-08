@@ -16,6 +16,11 @@ bar_chart
   /* Icons */
   --icon-color-default: #777;
   --icon-color-search: #626a6e;
+  --icon-color-indigo: #8088e8;
+  --icon-color-red: #eb5c65;
+  --icon-color-green: #1db26d;
+  --icon-color-blue: #4e83b0;
+
   /* Header */
   --bg-header: #438afc;
 
@@ -42,6 +47,30 @@ bar_chart
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+}
+
+h4{
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+h5{
+  font-weight: 400;
+  color: var(--text-muted);
+}
+
+.icon-indigo{
+  color: var(--icon-color-indigo);
+}
+.icon-green{
+  color: var(--icon-color-green);
+}
+.icon-red{
+  color: var(--icon-color-red);
+}
+.icon-blue{
+  color: var(--icon-color-blue);
 }
 
 body {
@@ -285,12 +314,52 @@ main {
 
 .content {
   width: 100%;
-  
+
   padding: 30px;
   min-height: 100%;
 }
 
 .content .card1{
   border: 1px solid black;
+  width: 100%;
+}
+
+.content .card1 .statistics{
+  background-color: var(--bg-sidebar);
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content .card1 .info{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 200px;
+  height: 100px;
   
 }
+
+.content .card1 .info .icon{
+  font-size: 32px;
+}
+
+.content .card1 .info .box1 
+
+.content .card1 .info .box2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+
+/*
+1 - trocar o nome dos icones
+2 - trocar a cor
+3 - corrigir o espaçamento
+4 - fazer o espaçamento
+5 - terminar tudo, exceto a parte de baixo
+6 - box shadow
+7 - border radius
+*/

@@ -40,6 +40,12 @@ bar_chart
 
   /* Content */
   --bg-content: #ffb2b2;
+
+  /* Box1 e Box2 */
+  --box--green: #11c25b;
+  --box--green-clean: #32ed80;
+  --box--blue: #448bfc;
+  --box--blue-clean: #90bafc;
 }
 
 * {
@@ -81,6 +87,20 @@ h5{
   border-left: 2px solid var(--bg-content);
 }
 
+.background-green{
+  background: var(--box--green);
+}
+.background-green-clean{
+  background: var(--box--green-clean);
+}
+
+.background-blue{
+  background: var(--box--blue);
+}
+.background-blue-clean{
+  background: var(--box--blue-clean);
+}
+
 
 body {
   background-color: var(--bg-page);
@@ -91,7 +111,7 @@ body {
 .container {
   margin: 0 auto;
   height: 100vh;
-  width: 80%;
+  width: 100%;
 }
 
 header {
@@ -336,6 +356,7 @@ main {
   
   width: 100%;
   gap: 30px;
+  justify-content: center;
 }
 
 .content .card1 .statistics{
@@ -366,6 +387,55 @@ main {
   flex-direction: column;
   align-items: center;
   gap: 5px;
+}
+
+.metrics{
+  display: flex;
+  background-color: transparent;
+  width: 30%;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.content .card1 .metrics .info{
+  width: 100%;
+  height: 42%;
+  color: var(--bg-sidebar);
+  background: transparent;
+  border-radius: 10px;
+}
+
+.text-box-value{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.text-box{
+  font-size: 10px;
+  font-weight: 100;
+}
+
+
+.content .card1 .metrics .info .box1{
+  display: flex;
+  width: 30%;
+  height: 100%;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.content .card1 .metrics .info .box2{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 80%;
+  padding-left: 20px;
+  justify-content: center;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+
 }
 
 

@@ -189,6 +189,8 @@ header {
   position: relative;
   align-items: center;
   justify-content: center;
+  box-shadow: 10px 0 10px -8px rgba(0,0,0, 0.3);
+  z-index: 10;
 }
 
 .fundo-perfil{
